@@ -1,6 +1,6 @@
 <?php include 'cabecalho.php'; ?>
-    <main>
+<main>
     <p>Bem-vindo(a) ao sistema!</p>
     <p>Hoje é <?php echo date('d/m/Y'); ?></p>
-    </main>
+</main>
 <?php include 'rodape.php'; ?>
