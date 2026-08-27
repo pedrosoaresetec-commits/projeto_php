@@ -1,6 +1,5 @@
-     <footer>
+    <footer>
         <p>Sistema de Produtos - Todos os direitos reservados</p>
-     </footer>
-    </body>
-    
+    </footer>    
+</body>
 </html>
