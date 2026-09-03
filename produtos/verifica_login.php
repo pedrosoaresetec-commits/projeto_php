@@ -1,6 +1,8 @@
 <?php
-require __DIR__ . '/verifica_login.php';
-require __DIR__ . '/../conexao.php';
-$sql = "SELECT * FROM produtos";
-$resultado = mysqli_query($conexao, $sql);
+session_start();
+
+if (!isset($_SESSION['usuario_id'])) {
+    header('Location: /projeto_php/login.php');
+    exit;
+}
 ?>
